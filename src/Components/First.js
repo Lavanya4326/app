@@ -63,7 +63,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function PrimarySearchAppBar() {
+const First=()=>{
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -163,7 +163,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{backgroundColor:'#D291BC'}}>
+      <AppBar position="static" style={{backgroundColor:'purple'}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -175,7 +175,7 @@ export default function PrimarySearchAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h4"
+            variant="h6"
             fontFamily={'bold'}
             noWrap
             component="div"
@@ -239,3 +239,4 @@ export default function PrimarySearchAppBar() {
     </Box>
   );
 }
+export default First;
