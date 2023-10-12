@@ -158,7 +158,7 @@ const First=()=>{
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{backgroundColor:'purple'}}>
+      <AppBar position="static" style={{backgroundColor:'red'}}>
         <Toolbar>
           <IconButton
             size="large"
